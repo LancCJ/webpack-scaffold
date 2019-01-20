@@ -1,4 +1,4 @@
-[](!https://github.com/LancCJ/github-project-docs/raw/master/doc/webpack-scaffold/webpack-scaffold.png)
+[logo](!https://github.com/LancCJ/github-project-docs/raw/master/doc/webpack-scaffold/webpack-scaffold.png)
 ## webpack-scaffold基础脚手架
 
 #### 功能简介
