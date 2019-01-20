@@ -1,0 +1,23 @@
+{
+    //这是一个自动加载的文件 rc结尾的，类似在linux中的rc文件一样
+    "plugins": [
+        //之前转换的插件都要写在这里，但是后面使用presets就不需要啦
+        //需要不停的添加插件 很麻烦
+        //转换到ES5语法 babel-plugin-transform-es2015-arrow-functions babel-plugin-async-to-promises
+        //"transform-es2015-arrow-functions",
+        //"async-to-promises"
+        //解决promise打包之后的环境污染 识别最新语法
+        "transform-runtime"
+    ],
+    "presets": [
+        [
+            "env",{
+                "target":{
+                    //支持浏览器的版本 支持ES5环境的
+                    "browsers":["last 2 versions"]        
+                },
+                "debug":true
+            }
+        ]
+    ]
+}
